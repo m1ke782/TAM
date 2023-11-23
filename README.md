@@ -7,5 +7,5 @@ A trigram is a group of three letters. In certain languages, different trigrams 
 ## How to use
 - Include `tris.h`
 - Call `trigrams_load(const char* file)` to load the trigram frequency values.
-- You can now analyse a string by calling `trigrams_fitness(char* txt, int len)`. The return value is an float of arbitrary units (higher is closer to English).
+- You can now analyse a string by calling `trigrams_fitness(char* txt, int len)`. The return value is a float of arbitrary units (higher is closer to English).
 - Call `trigrams_free()` when your program ends.
